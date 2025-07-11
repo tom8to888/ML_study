@@ -180,13 +180,13 @@ Prediction: ○ (majority wins)
 
 #### 📏 **Euclidean Distance** (Most Common)
 ```
-Distance = √[(x₁-y₁)² + (x₂-y₂)² + ... + (xₙ-yₙ)²]
+Distance = √[(x_2-x_1)² + (y_2-y_1)² + ... + (x_n-x_(n-1))² + (y_n-y_(n-1))²]
 ```
 **Good for:** Continuous features, when all features equally important
 
 #### 🏙️ **Manhattan Distance** (City Block)
 ```
-Distance = |x₁-y₁| + |x₂-y₂| + ... + |xₙ-yₙ|
+Distance = |x_2-x_1| + |y_2-y_1| + ... + |x_n-x_(n-1)| + |y_n-y_(n-1)|
 ```
 **Good for:** When you can only move in grid patterns
 
